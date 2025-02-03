@@ -14,7 +14,19 @@ body{
     padding: 25px;
     border-radius: 10px;
     margin: 15px;
+    transition: .3s ease;
 }
+
+#registroform:hover{
+    background-color: rgb(216, 214, 214);
+    box-shadow: 9px 9px 8px rgba(230, 66, 66, 0.2);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 15px;    
+    transform: translate(5px, 6px); 
+    
+}
+
 
 label{
     display: block;
